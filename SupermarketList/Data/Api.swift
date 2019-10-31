@@ -12,9 +12,12 @@ typealias ListCompletionHandler = (Error?,[Item]?) -> ()
 typealias CreateItemCompletionHandler = (Error?,Item?) -> ()
 typealias EmptyCompletionHandler = (Error?) -> ()
 
-let LIST_ENDPOINT = "https://meetups.azurewebsites.net/api/ListHttpTrigger?code=joi5GflrhcSPiFWnNXKPJ6zN06gZqotbh114kxZb5pvlNDiX3i8hGg=="
-let CREATE_ENDPOINT = "https://meetups.azurewebsites.net/api/CreateHttpTrigger?code=Pu74Mk9ZaKWyM7EbEfsA1Gh1RN0ckoHYXyifKLDgwVfTa2p7a9b81A=="
-let DELETE_ENDPOINT = "https://meetups.azurewebsites.net/api/DeleteHttpTrigger?code=telPaWl/Iba6o5r/U6zRro3mtsZSQjMiP7E0cCi6RSIG2DvgwC9gjA=="
+// SEU ENDPOINT DE LISTAGEM AQUI
+let LIST_ENDPOINT = ""
+// SEU ENDPOINT DE CRIAR ITEM AQUI
+let CREATE_ENDPOINT = ""
+// SEU ENDPOINT DE APAGAR ITEM AQUI
+let DELETE_ENDPOINT = ""
 
 
 protocol ApiContract {
